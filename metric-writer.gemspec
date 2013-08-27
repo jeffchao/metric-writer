@@ -7,6 +7,7 @@ require 'metric-writer/version'
 Gem::Specification.new do |s|
   s.name = 'metric-writer'
   s.version = MetricWriter::VERSION
+  s.license = 'MIT'
 
   s.authors = ["Jeff Chao"]
   s.description = 'A writer for simultaneously writing StatsD metrics across a variety of services'
